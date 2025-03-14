@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 
 const App = () => {
   let time = new Date().toLocaleTimeString();
-  const [Time,setTime] = useState(time);
+  const [Time,setTime] = useState(time);// useState contains two variables one is prasent info and next one is updated one.
   const UpdateTime=()=>{
     time = new Date().toLocaleTimeString();
     setTime(time);
